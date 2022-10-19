@@ -1,0 +1,27 @@
+:root {
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+  --font-weight-extra-bold: 700;
+
+  --primary-color: #212121;
+  --second-color: #757575;
+  --accent-color: #2196f3;
+  --dark-color: #2f303a;
+  --light-color: #f5f4fa;
+  --white-color: #ffffff;
+  --font-style: normal;
+
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--white-background-color);
+  color: var(--primary-text-color);
+}
+
+.logo {
+  
+}
