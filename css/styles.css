@@ -15,7 +15,7 @@
 --secondary-font: "Raleway", sans-serif;
 }
 
-.body {
+body {
   font-family: "Roboto", "Raleway", sans-serif;
   letter-spacing: 0.03em;
   background-color: var(--white-background-color);
@@ -28,7 +28,7 @@
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--primary-color)
+  color: var(--primary-color);
   text-decoration: none;
 }
 .logo-accent {
@@ -50,7 +50,7 @@
 
 .header-nav-list {
   color: var(--primary-color
-  )
+  );
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -98,7 +98,11 @@ line-height: 1.71;
   color: var(--second-color);
 }
 .services-box,
-
+.team {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700; 
+}
 
 
 .services-box-list {
