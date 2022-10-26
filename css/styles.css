@@ -1,4 +1,51 @@
 :root {
+--background-color: #FFFFFF;
+--color: #212121;
+--hover-color: #2196f3;
+}
+
+body {
+background-color: var(--background-color);
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: var(--color);
+}
+
+.logo {font-family: 'Raleway', sans-serif;
+font-weight: 700;
+text-decoration: none;
+color: #000000;
+font-size: 26px;
+line-height: 1.4;
+}
+
+.web {
+  color: var(--hover-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* .header-text {
+  font-weight: 900;
+  color: #FFFFFF;
+  line-height: 1.36;
+  font-size: 44px;
+} */
+
+.main-button {
+  background-color: #2196f3;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+}
+
+/* :root {
 --font-weight-normal: 400;
 --font-weight-bold: 600;
 --font-weight-extra-bold: 700;
@@ -21,6 +68,15 @@ body {
   background-color: var(--white-background-color);
   color: var(--primary-text-color);
 }
+.header-nav,
+.contact {list-style-type: none;}
+
+.header-nav-list,
+ .address-mail,
+ .address-tel,
+ .porfolio-list,
+ .address {text-decoration: none}
+
 
 .logo {
   font-style: var(--secondary-font);
@@ -32,7 +88,7 @@ body {
   text-decoration: none;
 }
 .logo-accent {
-  color: var(--font-style)
+  color: var(--accent-color)
 }
 .address-mail,
 .address-tel {
@@ -40,6 +96,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   font-style: var(--font-style);
+  
 }
 .header-nav {
   font-weight: 500;
@@ -137,18 +194,6 @@ justify-content: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-}
-.footer {
-  background-color: var(--dark-color);
-}
-
-.footer-logo {
-  font-size: 36px;
-}
-
-.footer-adress {
-  font-size: 14px;
 }
 
 .button-list-item {
@@ -187,3 +232,30 @@ justify-content: center;
   padding: 10px;
   margin: 10px;
 }
+.footer {
+  /* background-color: var(--dark-color);} */
+
+/* 
+.footer-logo {
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.contact-link:focus {
+color: var(--accent-color);
+}
+
+
+.contact-link {
+  text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    color: var(--white-color);
+    }
+
+
+
+
+.footer-address {
+  font-size: 14px;
+} */
