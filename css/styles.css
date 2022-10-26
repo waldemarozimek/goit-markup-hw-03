@@ -44,6 +44,19 @@ line-height: 1.4;
   font-family: 'Roboto', sans-serif;
   border: none;
 }
+.text {
+font-size: 14px;
+color: #757575;
+line-height: 24px;
+
+}
+.size-small {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  
+}
 
 /* :root {
 --font-weight-normal: 400;
