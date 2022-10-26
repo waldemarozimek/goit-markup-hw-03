@@ -114,6 +114,22 @@ line-height: 24px;
   color: #FFFFFF;
   text-decoration: none;
 }
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 26px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+.address {
+  font-style: inherit;
+  padding-top: 11px;
+  letter-spacing: 0, 03em;
+  line-height: 24px;
+}
 
 .warsow {
   font-style: normal;
