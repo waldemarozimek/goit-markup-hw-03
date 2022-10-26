@@ -27,12 +27,24 @@ line-height: 1.4;
   list-style-type: none;
 }
 
-/* .header-text {
-  font-weight: 900;
-  color: #FFFFFF;
-  line-height: 1.36;
-  font-size: 44px;
-} */
+.navi {
+  text-decoration: none;
+  color: var(--color);
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.navi:hover {
+  color: var(--hover-color);
+}
+.navi:focus {
+  color: var(--hover-color);
+}
+
+.box {
+  background-color: #2F303A;
+  
+}
 
 .main-button {
   background-color: #2196f3;
@@ -55,9 +67,37 @@ line-height: 24px;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  
+
 }
 
+.footer {
+  background-color: #212121;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.warsow {
+  font-style: normal;
+}
+
+.contact-link {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+  filter: opacity(60%)
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--hover-color);
+}
+
+.contact-list {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 1.7;
+}
 /* :root {
 --font-weight-normal: 400;
 --font-weight-bold: 600;
