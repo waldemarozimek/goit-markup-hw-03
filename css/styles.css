@@ -119,6 +119,26 @@ line-height: 24px;
   font-style: normal;
 }
 
+.menu-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+    cursor: pointer;
+    color:#212121;
+    background-color: E5E5E5;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+  background-color: #2196f3;
+  color:#FFFFFF;
+  border: none;
+}
+
+
 .contact-link {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
