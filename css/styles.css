@@ -11,7 +11,8 @@ font-family: 'Roboto', sans-serif;
 color: var(--color);
 }
 
-.logo {font-family: 'Raleway', sans-serif;
+.logo {
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 text-decoration: none;
 color: #000000;
@@ -133,6 +134,13 @@ line-height: 24px;
 
 .warsow {
   font-style: normal;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;  
+    color: #FFFFFF;
 }
 
 .menu-button {
@@ -154,20 +162,13 @@ line-height: 24px;
   border: none;
 }
 
-
 .contact-link {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  color: #FFFFFF;
-  filter: opacity(60%)
+  color: rgba(255, 255, 255, 0.6);
+  
 }
-
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--hover-color);
-}
-
 .contact-list {
   list-style-type: none;
   font-size: 14px;
