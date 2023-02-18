@@ -1,60 +1,82 @@
 :root {
-  --background-color: #ffffff;
-  --color: #212121;
-  --hover-color: #2196f3;
+  --white: #ffffff;
+  --carbon: #212121;
+  --light-blue: #2196f3;
+  --black:#000000;
+  --border-color:#E5E5E5;
 }
 
 body {
-  background-color: var(--background-color);
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  background-color: var(--white);
+  font-family: "Roboto", "Raleway", sans-serif;
   color: var(--color);
 }
+.main-title-section {
+background-color: #2f303a;
+text-align: center;
+padding-top: 200px;
+padding-bottom: 200;
+}
+
+
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-decoration: none;
-  color: #000000;
+  color: var(--black);
   font-size: 26px;
   line-height: 1.4;
 }
 
 .web {
-  color: var(--hover-color);
+  color: var(--light-blue);
 }
 
-.list {
+.navigation-list {
   list-style-type: none;
+  display: inline-flex;
+  align-content: center;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
-.navi {
+.navigation-list-item {
+justify-content: flex-start;
+align-items: center;
+list-style: none;
+padding: 23px;
+}
+.navigation-link{
   text-decoration: none;
-  color: var(--color);
+  color: var(--carbon);
   font-size: 14px;
   line-height: 1.17;
 }
 
-.navi:hover {
-  color: var(--hover-color);
+.navigation-link:hover {
+  color: var(--light-blue);
 }
-.navi:focus {
-  color: var(--hover-color);
+.navigation-link:focus {
+  color: var(--light-blue);
 }
-.contact {
+
+.kontakt{
   text-decoration: none;
   color: #757575;
   font-size: 14px;
   line-height: 1.17;
 }
-
-.contact:hover,
-.contact:focus {
-  color: var(--hover-color);
+.kontakt-list {
+  display: flex;
+  margin-left: 280px;
 }
-
-.box {
-  background-color: #2f303a;
+.kontakt-list-item{
+  list-style: none;
+  padding: 30px 25px;
+}
+.kontakt:hover  {
+  color: var(--light-blue);
 }
 .header-text {
   font-weight: 900;
@@ -74,7 +96,7 @@ body {
 }
 .main-buttion:hover {
   background-color: #e5e5e5;
-  color: var(--hover-color);
+  color: var(--light-blue);
 }
 .person-name {
   color: var(--color);
@@ -159,21 +181,45 @@ body {
   color: #ffffff;
   border: none;
 }
-
-.contact-link {
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+.contact-link:hover{
+  color: var(--light-blue);
+}
+.contact-link:focus{
+  color: var(--light-blue);
 }
 .contact-list {
   list-style-type: none;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.contact-link {
+  text-decoration: none;
+  font-family: inherit;
+  font-style: normal;
+  color: var(--white);
+  filter: opacity(60%);
+  line-height: 24px;
 }
 .image-description {
   font-size: 18px;
   font-weight: 700;
   color: var(--color);
   line-height: 2;
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 0 15px;
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+  }
+
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
+.header .container{
+  display: flex;
+  align-items: center;
 }
