@@ -114,7 +114,22 @@ padding: 23px;
 .main-button:focus {
   background-color: #e5e5e5;
   color: var(--light-blue);
-
+}
+.menu-button {
+color: var(--carbon);
+font-size: 16px;
+background-color: #f5f4fa;
+font-family: inherit;
+font-weight: 500;
+cursor: pointer;
+border: none;
+line-height: 1.62;
+border-radius: 5%;
+padding: 6px 22px;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+  0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4%;
 }
 .lorem-ipsum {
 margin-bottom: -94px;
@@ -299,4 +314,30 @@ flex-wrap: nowrap;
 .header .container{
   display: flex;
   align-items: center;
+}
+.function-list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+.function-list-item {
+display: flex;
+background-color: var(--white);
+}
+.botton-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.botton-list-item {
+  display: inline-flex;
+  padding: 4px;
+}
+.figcaption-portfolio {
+  border-bottom: 1px solid var(--border-image);
+  padding: 20px 24px;
 }
