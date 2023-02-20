@@ -9,9 +9,21 @@
 body {
   background-color: var(--white);
   font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--color);
+  color: var(--carbon);
   margin: 0;
 }
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 0;
+}
+
+
 .main-title-section {
 background-color: #2f303a;
 text-align: center;
@@ -78,12 +90,12 @@ padding: 23px;
 }
 .kontakt-list {
   display: flex;
-  /*margin-left: 280px;*/
+  margin-left: 160px;  
 }
 .kontakt-list-item{
   list-style: none;
   padding: 30px 25px;
-}
+  }
 .kontakt:hover  {
   color: var(--light-blue);
 }
@@ -134,6 +146,7 @@ border-radius: 4%;
 .lorem-ipsum {
 margin-bottom: -94px;
 }
+.lorem-ipsum
 .lorem-ipsum-list {
 display: flex;
 flex-wrap: nowrap;
@@ -142,8 +155,8 @@ flex-basis: calc((100%-90px)/4);
 
 }
 .lorem-ipsum-item {
-list-style: none;
-  letter-spacing: 0.03em;
+list-style-type: none;
+letter-spacing: 0.03em;
 }
 
 .image-list {
@@ -185,8 +198,12 @@ flex-basis: calc((100%-90px)/4);
 gap:30px;
 flex-wrap: nowrap;
 }
+.image-format {
+  display: block;
+}
+
 .figure {
-  margin: 0;
+  margin: 0%;
   padding: 0;
   }
 .figcaption {
@@ -210,7 +227,7 @@ flex-wrap: nowrap;
 .size-small {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 .size-medium {
@@ -247,28 +264,8 @@ flex-wrap: nowrap;
   letter-spacing: 0.03em;
   line-height: 24px;
 }
-.warsow {
-  font-style: normal;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.menu-button {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  border: none;
-  cursor: pointer;
-  color: #212121;
-  background-color: var(--border-color);
-}
-.menu-button:hover,
+
+.menu-button:hover
 .menu-button:focus {
   background-color: #2196f3;
   color: #ffffff;
@@ -307,6 +304,10 @@ flex-wrap: nowrap;
   margin:0 auto;
   max-width: 1200px;
   }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .header {
   border-bottom: 1px solid var(--border-color);
