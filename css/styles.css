@@ -57,6 +57,8 @@ p {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 .logo {
   font-family: var(--second-family);
@@ -123,6 +125,8 @@ ul {
 
 .hero {
   background-color: var(--navy-blue);
+  text-align: center;
+  padding: 188px 0;
 }
 .header-title {
   font-size: 56px;
@@ -141,6 +145,13 @@ ul {
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
+  display: block;
+  border-radius: 4px;
+  border: none;
+  padding: 16px 32px;
+  width: 169px;
+  margin: o auto;
+  /* height: 56px; */
 }
 .main-button:hover {
   background-color: var(--ocean);
@@ -185,11 +196,16 @@ ul {
   color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  height: 312px;
+  padding: 100px;
 }
 .footer-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  /* line-height: 1.5;
+  letter-spacing: 0.02em; */
   color: var(--cloud);
+  display: block;
+  flex-wrap: wrap;
+  width: 264px;
 }
 .logo-bright {
   color: var(--cloud);
