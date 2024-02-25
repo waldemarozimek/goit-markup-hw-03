@@ -41,7 +41,6 @@ p {
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -69,6 +68,8 @@ ul {
   text-transform: uppercase;
   color: var(--iris);
   text-decoration: none;
+  display: flex;
+  margin-right: 76px;
 }
 .logo-dark {
   color: var(--navy-blue);
@@ -89,8 +90,8 @@ ul {
 }
 .navigation-list {
   display: flex;
-  gap: 40px;
   padding: 24px 0;
+  gap: 40px;
 }
 
 .navigation-link {
@@ -132,9 +133,11 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   font-weight: 700;
   color: var(--white);
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .main-button {
   background-color: var(--iris);
@@ -150,8 +153,8 @@ ul {
   border: none;
   padding: 16px 32px;
   width: 169px;
-  margin: o auto;
-  /* height: 56px; */
+  margin: 0 auto;
+  height: 56px;
 }
 .main-button:hover {
   background-color: var(--ocean);
@@ -162,18 +165,30 @@ ul {
 .main-button:focus {
   color: var(--ocean);
 }
-.titles {
+
+.column-box {
+  padding: 120px 0;
+  /* zastanowić się nad tą sekcją */
+}
+.column-list {
+  display: flex;
+  gap: 24px;
+}
+
+.column-items {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
-.text {
+.column-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  /* width: calc(100%-72px) /4; */
 }
 .team {
   background-color: var(--cloud);
