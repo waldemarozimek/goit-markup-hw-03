@@ -166,9 +166,9 @@ ul {
   color: var(--ocean);
 }
 
-.column-box {
-  padding: 120px 0;
-  /* zastanowić się nad tą sekcją */
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .column-list {
   display: flex;
@@ -188,7 +188,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  /* width: calc(100%-72px) /4; */
+  width: calc(100% - 72px) /4;
 }
 .team {
   background-color: var(--cloud);
@@ -202,10 +202,36 @@ ul {
   text-transform: capitalize;
   text-align: center;
   color: var(--navy-blue);
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+
 }
 .team-card {
   background-color: var(--white);
+  border-radius: 0 0 4px 4px;
+  text-align: center;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.card-caption {
+ padding: 32px 0;
+ }
+.titles {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue);
+margin-bottom: 8px;
+}
+
+
+
 .footer {
   background: var(--navy-blue);
   color: var(--cloud);
