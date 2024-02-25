@@ -36,7 +36,9 @@ p {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* padding: 0 15px; */
 }
 .visually-hidden {
   position: absolute;
@@ -54,11 +56,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
-
+}
 img {
   display: block;
 }
-}
+
 .logo {
   font-family: var(--second-family);
   font-weight: 700;
@@ -81,7 +83,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 .navigation {
   display: flex;
@@ -99,6 +101,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   text-decoration: none;
+  padding: 24px 0;
 }
 .navigation-link:hover {
   color: var(--ocean);
@@ -242,7 +245,7 @@ padding: 32px 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   height: 312px;
-  padding: 100px;
+  padding: 100px 0;
 }
 .footer-text {
   /* line-height: 1.5;
@@ -254,4 +257,5 @@ padding: 32px 16px;
 }
 .logo-bright {
   color: var(--cloud);
+  margin-bottom: 16px;
 }
