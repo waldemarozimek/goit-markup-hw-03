@@ -214,9 +214,6 @@ section {
 .team-list {
   display: flex;
   gap: 24px;
-  /* column-gap: 24px;
-  row-gap: 48px;
-  flex-wrap: wrap; */
 }
 .team-card {
   background-color: var(--white);
@@ -224,6 +221,7 @@ section {
   text-align: center;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  calc: ((100%-72px)/4);
 }
 .card-caption {
   padding: 32px 0;
@@ -241,12 +239,12 @@ section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  }
+}
 .portfolio-card {
   border: 1px solid var(--cornflower);
   border-top: none;
   padding: 32px 16px;
-  }
+}
 .footer {
   background: var(--navy-blue);
   color: var(--cloud);
