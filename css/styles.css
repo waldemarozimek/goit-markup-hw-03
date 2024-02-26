@@ -172,6 +172,9 @@ section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.column-container {
+  padding: 120px 0;
+}
 .column-list {
   display: flex;
   gap: 24px;
@@ -228,7 +231,7 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
   color: var(--navy-blue);
   margin-bottom: 8px;
 }
