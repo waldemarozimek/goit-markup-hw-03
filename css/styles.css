@@ -213,9 +213,10 @@ section {
 }
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
+  /* column-gap: 24px;
   row-gap: 48px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 .team-card {
   background-color: var(--white);
