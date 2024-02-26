@@ -59,6 +59,8 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .logo {
@@ -92,7 +94,7 @@ img {
 }
 .navigation-list {
   display: flex;
-  /* padding: 24px 0; */
+  padding: 24px 0;
   gap: 40px;
 }
 .navigation-link {
@@ -174,7 +176,10 @@ section {
   display: flex;
   gap: 24px;
 }
-.column-items {
+.column-item {
+  width: calc((100% - 72px) / 4);
+}
+.column-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -187,7 +192,6 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  width: calc(100% - 72px) /4;
 }
 .team {
   background-color: var(--cloud);
@@ -217,16 +221,16 @@ section {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .card-caption {
- padding: 32px 0;
- }
+  padding: 32px 0;
+}
 .titles {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align:left;
-color: var(--navy-blue);
-margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 .portfolio-list {
   display: flex;
@@ -235,9 +239,9 @@ margin-bottom: 8px;
   row-gap: 48px;
 }
 .portfolio-card {
-border: 1px solid var(--cornflower);
-border-top: none;
-padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+  padding: 32px 16px;
 }
 .footer {
   background: var(--navy-blue);
