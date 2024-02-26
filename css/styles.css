@@ -75,6 +75,10 @@ img {
   display: flex;
   margin-right: 76px;
 }
+.logo-second {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-dark {
   color: var(--navy-blue);
 }
@@ -164,9 +168,6 @@ img {
 }
 .main-button:focus {
   background-color: var(--ocean);
-}
-.main-button:focus {
-  color: var(--ocean);
 }
 section {
   padding-top: 120px;
