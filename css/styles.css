@@ -231,7 +231,6 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--navy-blue);
   margin-bottom: 8px;
 }
@@ -240,12 +239,12 @@ section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
+  }
 .portfolio-card {
   border: 1px solid var(--cornflower);
   border-top: none;
   padding: 32px 16px;
-}
+  }
 .footer {
   background: var(--navy-blue);
   color: var(--cloud);
